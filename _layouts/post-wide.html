@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div id="post-container">
+  {% if page.herotype == "video" %}
+    <video width="100%"  poster="" autoplay controls>
+      <source src="{{page.video}}" type="video/mp4">
+    </video>
+  {% else %}
+    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url({{ site.baseurl }}img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+  {% endif %}
+  <div class="post post-wide">
+    <div class="project-description">
+      <div class="row clearfix">
+        <div class="col">
+          <h2 class="project-title">{{ page.title }}</h2>
+          <a class="project-link" href="{{ page.project_site_url }}" target="_blank">Website</a>
+          {% if page.twitter %}
+            <a class="project-twitter" href="https://twitter.com/{{ page.twitter }}" target="_blank"><i class="fa fa-twitter" /> @{{page.twitter}} </a>
+          {% else %}
+            
+          {% endif %}
+        </div>
+        <div class="col">
+          <h3>
+            Location
+          </h3>
+          {% for p in page.location %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+          <div class="row">
+            {% if page.team %}
+              <div class="col-50">
+                <h3>Team</h3>
+                <p>
+                  {% for t in page.team %}
+                    {{ t | textilize }}<br/>
+                  {% endfor %}
+                </p>
+              </div>
+            {% endif %}
+            {% if page.stack %}
+              <div class="col-50">
+                <h3>Stack</h3>
+                <p>
+                  {{ page.stack }}
+                </p>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col">
+          <h3>Summary</h3>
+          {% for p in page.summary %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {{ content }}
+  </div>
+</div>
+
+
+
+{% if page.next.url %}
+  <a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project target"></a>
+{% endif %}
+{% if page.previous.url %}
+  <a href="{{page.previous.url}}" title="{{page.previous.title}}" class="prev-project target"></a>
+{% endif %}

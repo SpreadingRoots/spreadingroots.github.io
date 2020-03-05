@@ -1,0 +1,30 @@
+---
+layout: default
+title: In Progress
+---
+
+{% assign asias = site.posts | where:'region', 'Asia Pacific' %}
+<h1 style="margin:1.5em">Asia Pacific</h1>
+<ul class="projects clearfix">
+{% for post in asias %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.worktype }}
+          </span>
+          <span>
+            View project
+          </span>
+        </div>
+      </a>
+      <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+      <div class="aspect-two-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>

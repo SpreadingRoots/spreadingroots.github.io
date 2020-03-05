@@ -1,0 +1,28 @@
+---
+layout: default
+title: Portfolio
+---
+
+<ul class="projects clearfix">
+{% for post in site.posts %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.worktype }}
+          </span>
+          <span>
+            View project
+          </span>
+        </div>
+      </a>
+      <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+      <div class="aspect-two-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>
