@@ -4,5 +4,5 @@ author: Spreading Roots Collective
 analytics: UA-96559329-1
 exclude: [ _design, README ]
 # baseurl: "http://www.jonathanmatthey.com/redesign/_site/"
-baseurl: "/"
-permalink: /projects/:title.html
+baseurl: "http://spreadingroots.github.io/"
+permalink: /:title.html
