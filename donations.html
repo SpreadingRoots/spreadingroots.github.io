@@ -3,7 +3,7 @@ layout: default
 title: In Progress
 ---
 
-{% assign paypals = site.posts | where:'paypal' %}
+{% assign paypals = site.posts | where:'paypal' != '' %}
 <h1 style="margin:1.5em">Paypal</h1>
 <ul class="projects clearfix">
 {% for post in paypals %}

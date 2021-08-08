@@ -13,6 +13,7 @@ address: Block 5 lot 1, Onsite Purok 4 Barangay Buli, Muntinlupa City Manila, Ph
 location: Muntinlupa City Manila, Philippines
 telephone: (632) 8080418
 email: onsiteinfoshopphilippines@gmail.com
+paypal: 
 summary: 
 - OnSite Info shop is a community-based resource center run by autonomous activists and anarchists and has local volunteers from OnSite Community. It struggle to exist to provide venues to share critical information and relevant skills appropriate to marginalized people.
 
