@@ -20,6 +20,6 @@ summary:
 ---
 
 <div class="showcase">
-	<img src="/img/bangladesh-asf/1.jpeg" alt="basf">
-	<img src="/img/bangladesh-asf/2.jpeg" alt="basf-2">
+	<img src="/img/bangladesh-asf/1.jpg" alt="basf">
+	<img src="/img/bangladesh-asf/2.jpg" alt="basf-2">
 </div>

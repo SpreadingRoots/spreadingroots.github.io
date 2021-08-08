@@ -1,0 +1,28 @@
+---
+layout: post-wide
+hero-bg-color: "#F4F5EE"
+uid: etniko
+title:  "Etniko Bandido Infoshop"
+worktype: "Infoshop"
+date:   2021-08-08 09:35:01
+region: Asia Pacific
+dates: 2020
+project_site_url: https://etnikobandidoinfoshop.wordpress.com/
+project_site_slug: blog
+address: 
+location: Pasig, Manilla, Philippines
+telephone: 
+patreon: https://www.patreon.com/etnikobandidoinfoshop/posts
+email: etnikobandido@riseup.net
+paypal: 
+summary: 
+- .
+
+---
+
+<div class="showcase">
+	<img src="/img/etniko/1.jpg" alt="etniko">
+	<img src="/img/etniko/2.jpg" alt="etniko-2">
+	<img src="/img/etniko/3.jpg" alt="etniko-3">
+	<img src="/img/etniko/4.jpg" alt="etniko-4">
+</div>
