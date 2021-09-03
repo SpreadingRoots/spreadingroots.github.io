@@ -14,6 +14,8 @@ location: Pasig, Manilla, Philippines
 telephone: 
 patreon: https://www.patreon.com/etnikobandidoinfoshop/posts
 email: etnikobandido@riseup.net
+payments:
+- patreon
 paypal: 
 summary: 
 - .

@@ -13,6 +13,8 @@ address: MC collage Road 3100 Sylhet, Sylhet Division, Bangladesh
 location: Bangladesh
 telephone: 
 paypal: jaytaafrin@gmail.com
+payments:
+- paypal
 email: Shihab (basfsylhey [at] gmail.com , advocateakmshihab@gmail.com
 summary: 
 - Donations go to printing books.

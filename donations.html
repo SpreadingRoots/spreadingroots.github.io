@@ -1,0 +1,57 @@
+---
+layout: default
+title: In Progress
+---
+
+{% assign paypals = site.posts | where:'payments', 'paypal' %}
+<h1 style="margin:1.5em">Paypal</h1>
+<ul class="projects clearfix">
+{% for post in paypals %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.worktype }}
+          </span>
+          <span>
+            View project
+          </span>
+        </div>
+      </a>
+      <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+      <div class="aspect-two-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+<hr/>
+{% assign patreons = site.posts | where:'payments', 'patreon' %}
+<h1 style="margin:1.5em">Paypal</h1>
+<ul class="projects clearfix">
+{% for post in patreons %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.worktype }}
+          </span>
+          <span>
+            View project
+          </span>
+        </div>
+      </a>
+      <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+      <div class="aspect-two-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
