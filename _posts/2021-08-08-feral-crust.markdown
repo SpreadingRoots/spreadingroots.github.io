@@ -2,8 +2,8 @@
 layout: post-wide
 hero-bg-color: "#F4F5EE"
 uid: feral-crust
-title:  "Feral Crust Infoshop"
-worktype: "Infoshop"
+title:  "Feral Crust Land Project"
+worktype: "Land Project"
 date:   2021-08-08 09:35:01
 region: Asia Pacific
 dates: 2020
